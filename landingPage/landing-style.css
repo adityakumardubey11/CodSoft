@@ -1,0 +1,143 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #4b4ded;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #4b4ded, #8d88ff);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: #fff;
+  color: #4b4ded;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #333;
+  color: white;
+}
+
+/* Features Section */
+.features {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.features h2 {
+  color: #4b4ded;
+  margin-bottom: 40px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature-box {
+  background: #eef0ff;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.about h2 {
+  color: #4b4ded;
+  margin-bottom: 20px;
+}
+
+.about img {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.contact h2 {
+  color: #4b4ded;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #e6e6e6;
+  font-size: 0.9rem;
+  color: #555;
+}
+
